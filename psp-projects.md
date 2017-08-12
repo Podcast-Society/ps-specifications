@@ -4,8 +4,6 @@ Author: Michael McCouman Jr.
 
 Version: 1.0
 
-Tags: podcast-society, podcast, chapters, feeds, atom, rss
-
 Status: draft
 
 
