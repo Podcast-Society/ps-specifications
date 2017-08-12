@@ -9,27 +9,23 @@
     * Status: draft
     */                                  
 
+    PS Sound License:
 
-    PS Sound License
-    ---------------------
     Diese Angaben im Feed geben Auskunft über die Sound und Audio 
     Lizenzen wie auch die Herkunft der Werke. 
 
-    XML Namespace
-    ---------------------
-    Der XML Namensraum für das URI Format ist
+    XML Namespace:
 
+    Der XML Namensraum für das URI Format ist:
     => http://www.podcast-society.org/psp/sound-license
 
-    Der hier genutzte Prefix für den Namensraum ist "pssl:"
+    Der hier genutzte Prefix für den Namensraum ist "pssl"
 
 
-
-
-
-    Example 
-    ---------------------
+    Example:
+    
     Dies ist ein einfacher RSS Podcast Feed mit eingebundenen Projekt Banner Informationen:
+
 
     <?xml version="1.0" encoding="utf-8"?>
     <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -41,7 +37,7 @@
         <pssl:license version="1.0" xmlns:pspb="http://www.podcast-society.org/psp/sound-license">
             <pssl:license title="Soundflore 1"
                           type="Intro"                                //Intro, Outro
-                          genre="08"                                  //optional more: https://de.wikipedia.org/wiki/Liste_der_ID3v1-Genres
+                          genre="08"                                  //optional see ID3v1 Genres
                           creator="Michael McCouman Jr."              //producer, creator ...
                           href="http://website-download.tld"          //website url
                           lic="cc0"                                   //license
@@ -61,8 +57,9 @@
                   length="067549"
                   href="http://democast.tld/podcast/democast001.mp3"/>
             ...
-            
         </item>
     </channel>
     </feed>
 
+    Links:
+    - https://de.wikipedia.org/wiki/Liste_der_ID3v1-Genres
