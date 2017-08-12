@@ -1,4 +1,4 @@
 # psp-specifications
 
-* psp: project banner specification
-* psl: sound and image license specification
+* PSPB: project banner specification
+* PSML: media (sound and image) license specification
