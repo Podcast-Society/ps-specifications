@@ -34,19 +34,6 @@
     <channel>
         <title>Democaster</title>
         <atom:link type="text/html" href="http://www.podcast-society.org/de/podcast" />
-
-        <!-- specify sound lizense -->
-        <pssl:license version="1.0" xmlns:pssl="http://www.podcast-society.org/psp/sound-license">
-            <pssl:license title="Soundflore 1"
-                          type="Intro"                                //Intro, Outro
-                          genre="08"                                  //optional see ID3v1 Genres
-                          creator="Michael McCouman Jr."              //producer, creator ...
-                          href="http://website-download.tld"          //website url
-                          license="cc0"                               //license
-                          licUrl="https://creativecommons.org/licenses/by/3.0/de/"
-                          />
-        </pssl:license>
-        
         <item>
             <title>Democast 001</title>
             <link href="http://podlove.org/podcast/1"/>
@@ -59,7 +46,19 @@
             <link rel="enclosure" type="audio/mpeg"
                   length="067549"
                   href="http://democast.tld/podcast/democast001.mp3"/>
-            ...
+            
+            <!-- specify sound lizense -->
+            <pssl:license version="1.0" xmlns:pssl="http://www.podcast-society.org/psp/sound-license">
+                <pssl:license title="Soundflore 1"
+                              type="Intro"                                //Intro, Outro
+                              genre="08"                                  //optional see ID3v1 Genres
+                              producer="Michael McCouman Jr."             //producer, creator ...
+                              prodUrl="http://website-download.tld"       //website url from sound creator
+                              license="cc0"                               //sound license
+                              licUrl="https://creativecommons.org/licenses/by/3.0/de/" //sound license url
+                              />
+            </pssl:license>
+        
         </item>
     </channel>
     </feed>
