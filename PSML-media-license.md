@@ -20,7 +20,7 @@
     XML Namespace:
 
     Der XML Namensraum für das URI Format ist:
-    => http://www.podcast-society.org/pss/PSML-License
+    => http://www.podcast-society.org/pss/PSML/specification
 
     Der hier genutzte Prefix für den Namensraum ist "psml"
 
@@ -49,7 +49,7 @@
                   href="http://democast.tld/podcast/democast001.mp3"/>
             
             <!-- specify sound license -->
-            <psml:license version="1.0" xmlns:pssl="http://www.podcast-society.org/psp/sound-license">
+            <psml:license version="1.0" xmlns:psml="http://www.podcast-society.org/pss/PSML/specification">
                 <psml:sound title="Soundflore Intro"
                           mode="intro"                                //intro
                           genre="08"                                  //ID3v1 Genre (optional)
