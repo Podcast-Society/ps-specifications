@@ -10,25 +10,26 @@
     */                                  
 
 
-# PS Sound License #
+    PS Sound License
+    ---------------------
+    Diese Angaben im Feed geben Auskunft über die Sound und Audio 
+    Lizenzen wie auch die Herkunft der Werke. 
 
-DE: Diese Angaben im Feed geben Auskunft über die Sound und Audio Lizenzen wie auch die Herkunft der Werke. 
+    XML Namespace
+    ---------------------
+    Der XML Namensraum für das URI Format ist
 
-## XML Namespace ##
+    => http://www.podcast-society.org/psp/sound-license
 
-Der XML Namensraum für das URI Format ist
-
-=> http://www.podcast-society.org/psp/sound-license
-
-Der hier genutzte Prefix für den Namensraum ist "pssl:"
-
-## Angaben
-
+    Der hier genutzte Prefix für den Namensraum ist "pssl:"
 
 
-## Example 
 
-Dies ist ein einfacher RSS Podcast Feed mit eingebundenen Projekt Banner Informationen:
+
+
+    Example 
+    ---------------------
+    Dies ist ein einfacher RSS Podcast Feed mit eingebundenen Projekt Banner Informationen:
 
     <?xml version="1.0" encoding="utf-8"?>
     <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
