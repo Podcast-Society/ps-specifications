@@ -9,7 +9,7 @@ Status: draft
 
 # PS Project Banner #
 
-Die Angaben zum 
+DE: Diese Angaben im Feed geben Auskunft über die verwendeten Sources eines Projektes und machen die Verwendungen auch im Feed sichtbar. 
 
 ## XML Namespace ##
 
@@ -30,10 +30,18 @@ Dies ist ein einfacher RSS Podcast Feed mit eingebundenen Projekt Banner Informa
         <atom:link type="text/html" href="http://www.podcast-society.org/de/podcast" />
 
         <!-- specify project banner informations -->
-        <psp:projects version="1.0" xmlns:psc="http://www.podcast-society.org/psp/project-banner">
-            <psp:project match="http://ultraschall.fm" title="Ultraschall" version="4.0"/>
-            <psp:project match="hhttp://podlove.org" title="Podlove" version="4.0"/>
-        </psp:projects>
+        <pspb:projects version="1.0" xmlns:psc="http://www.podcast-society.org/psp/project-banner">
+            <pspb:project rel="http://ultraschall.fm" 
+                         title="Ultraschall" 
+                         jpg="http://ultraschall.fm/banner/ultraschall.4.jpg" //url is not specifiy
+                         png="..."
+                         svg="..."
+                         version="4.0"/>
+            <pspb:project rel="http://podlove.org" 
+                         title="Podlove"
+                         banner="http://podlove.org/banner/" //url is not specifiy
+                         version="4.0"/>
+        </pspb:projects>
         
         <item>
             <title>Democast 001</title>
