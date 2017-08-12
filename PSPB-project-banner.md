@@ -20,7 +20,7 @@
     XML Namespace:
 
     Der XML Namensraum für das URI Format ist:
-    => http://www.podcast-society.org/pss/project-banner
+    => http://www.podcast-society.org/pss/PSPB/specification
 
     Der hier genutzte Prefix für den Namensraum ist "ps:projects"
 
@@ -45,7 +45,7 @@
         <atom:link type="text/html" href="http://www.podcast-society.org/de/podcast" />
 
         <!-- specify projects -->
-        <ps:projects version="1.0" xmlns:ps="http://www.podcast-society.org/pss/project-banner">
+        <ps:projects version="1.0" xmlns:pspb="http://www.podcast-society.org/pss/PSPB/specification">
             <ps:project rel="http://ultraschall.fm" 
                          title="Ultraschall" 
                          type="image/png"
