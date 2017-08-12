@@ -20,9 +20,9 @@
     XML Namespace:
 
     Der XML Namensraum für das URI Format ist:
-    => http://www.podcast-society.org/psp/license
+    => http://www.podcast-society.org/pss/PSML-License
 
-    Der hier genutzte Prefix für den Namensraum ist "pssl"
+    Der hier genutzte Prefix für den Namensraum ist "psml"
 
 
     Example:
@@ -49,8 +49,8 @@
                   href="http://democast.tld/podcast/democast001.mp3"/>
             
             <!-- specify sound license -->
-            <ps:license version="1.0" xmlns:pssl="http://www.podcast-society.org/psp/sound-license">
-                <ps:sound title="Soundflore Intro"
+            <psml:license version="1.0" xmlns:pssl="http://www.podcast-society.org/psp/sound-license">
+                <psml:sound title="Soundflore Intro"
                           mode="intro"                                //intro
                           genre="08"                                  //ID3v1 Genre (optional)
                           producer="Michael McCouman Jr."             //producer
@@ -58,7 +58,7 @@
                           license="cc0"                               //sound license
                           licenseUrl="https://creativecommons.org/licenses/by/3.0/de/" //sound license url
                           />
-                 <ps:sound title="Soundflore Ending"
+                 <psml:sound title="Soundflore Ending"
                            mode="ontro"                                //outro
                            genre="10"                                  //ID3v1 Genre (optional)
                            producer="Michael McCouman Jr."             //producer
@@ -66,7 +66,7 @@
                            license="cc0"                               //sound license
                            licenseUrl="https://creativecommons.org/licenses/by/3.0/de/" //sound license url
                            />
-                 <ps:image title="Spirit Bicture"
+                 <psml:image title="Spirit Bicture"
                            mode="banner"                               //banner
                            type="image/jpg"                            //mime-type
                            creator="Michael McCouman Jr."              //creator
@@ -74,7 +74,7 @@
                            license="Copyright by Democast"             //image license
                            licenseUrl="http://democast.tld"            //license url
                             />
-                 <ps:image title="Episode 001"
+                 <psml:image title="Episode 001"
                            mode="poster"                               //poster
                            type="image/png"                            //mime-type
                            creator="Michael McCouman Jr."              //producer, creator ...
@@ -82,7 +82,7 @@
                            license="Copyright by Democast - 001"       //image license
                            licenseUrl="http://democast.tld/001/"       //license url
                             />
-            </ps:license>
+            </psml:license>
         
         </item>
     </channel>
