@@ -19,6 +19,14 @@ Der XML Namensraum für das URI Format ist
 
 Der hier genutzte Prefix für den Namensraum ist "pspb:"
 
+## Vorgesehene Projekte
+
+- ultraschall
+- podlove
+- podigee
+- studio&link
+- ...
+
 ## Example 
 
 Dies ist ein einfacher RSS Podcast Feed mit eingebundenen Projekt Banner Informationen:
