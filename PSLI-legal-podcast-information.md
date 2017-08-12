@@ -24,7 +24,7 @@
     Der XML Namensraum für das URI Format ist:
     => http://www.podcast-society.org/pss/project-banner
 
-    Der hier genutzte Prefix für den Namensraum ist "ps:rights"
+    Der hier genutzte Prefix für den Namensraum ist "psli:rights"
 
 
     Tags und Attribute:
@@ -35,7 +35,7 @@
      - mode: website
      - type: text/html
      - name: name of the podcast
-     - href: URL of the website
+     - url: URL of the website
      - operator: name of producer
      - right: 
           - N/A: Inhalt darf / darf nicht...
@@ -63,25 +63,26 @@
         <title>Democaster</title>
         <atom:link type="text/html" href="http://www.podcast-society.org/de/podcast" />
 
-        <!-- specify header rights -->
-        <ps:rights version="1.0" xmlns:ps="http://www.podcast-society.org/pss/right-information-act">
-            <ps:website> 
-               <ps:mode>website</mode>
-               <ps:type>text/html</type>
-               <ps:url>http://democast.tld</href> 
-               <ps:operator>John Dow</operator>
-               <ps:name>Democast</name>
-               <ps:rights website="none" ... />
-            </ps:website>
-            <ps:feeds> 
-               <ps:mode>feed</mode>
-               <ps:type>application/rss+xml</type>
-               <ps:url>http://democast.tld</href> 
-               <ps:operator>John Dow</operator>
-               <ps:name>Democast</name>
-               <ps:rights website="none" ... />
-            </ps:feeds>
-        </ps:rights>
+        <!-- specify PSLI: legal podcast information -->
+        <psli:rights version="1.0">
+            <!-- website -->
+            <psli:website mode="website"
+                          name="Democast"
+                          type="text/html"
+                          url="http://democast.tld"
+                          operator="John Dow">
+                <psli:right feed="none"/>
+            </psli:website>
+            
+            <!-- feed -->
+            <psli:feeds mode="feed"
+                        name="Democast"
+                        type="application/rss+xml"
+                        url="http://democast.tld"
+                        operator="John Dow">
+                <psli:right feed="none"/>
+            </psli:feeds>
+        </psli:rights>
         
         <item>
             ...
