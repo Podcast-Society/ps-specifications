@@ -50,7 +50,15 @@
             <!-- specify sound license -->
             <pssl:license version="1.0" xmlns:pssl="http://www.podcast-society.org/psp/sound-license">
                 <pssl:license title="Soundflore 1"
-                              type="Intro"                                //Intro, Outro
+                              type="intro"                                //intro, outro
+                              genre="08"                                  //optional see ID3v1 Genres
+                              producer="Michael McCouman Jr."             //producer, creator ...
+                              prodUrl="http://website-download.tld"       //website url from sound creator
+                              license="cc0"                               //sound license
+                              licUrl="https://creativecommons.org/licenses/by/3.0/de/" //sound license url
+                              />
+                 <pssl:license title="Soundflore 1"
+                              type="ontro"                                //intro, outro
                               genre="08"                                  //optional see ID3v1 Genres
                               producer="Michael McCouman Jr."             //producer, creator ...
                               prodUrl="http://website-download.tld"       //website url from sound creator
