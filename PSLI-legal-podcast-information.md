@@ -44,7 +44,7 @@
      - mode: feed
      - type: application/rss+xml
      - name: name (podcast feed) 
-     - href: URL of the feed
+     - url: URL of the feed
      - page: name (podcast)
      - right: 
           - N/A: Inhalt darf / darf nicht...
@@ -66,20 +66,20 @@
         <!-- specify header rights -->
         <ps:rights version="1.0" xmlns:ps="http://www.podcast-society.org/pss/right-information-act">
             <ps:website> 
-                      <ps:mode>website</mode>
-                      <ps:type>text/html</type>
-                      <ps:href>http://democast.tld</href> 
-                      <ps:operator>John Dow</operator>
-                      <ps:name>Democast</name>
-                      <ps:rights website="none" ... />
+               <ps:mode>website</mode>
+               <ps:type>text/html</type>
+               <ps:url>http://democast.tld</href> 
+               <ps:operator>John Dow</operator>
+               <ps:name>Democast</name>
+               <ps:rights website="none" ... />
             </ps:website>
             <ps:feeds> 
-                      <ps:mode>feed</mode>
-                      <ps:type>application/rss+xml</type>
-                      <ps:href>http://democast.tld</href> 
-                      <ps:operator>John Dow</operator>
-                      <ps:name>Democast</name>
-                      <ps:rights website="none" ... />
+               <ps:mode>feed</mode>
+               <ps:type>application/rss+xml</type>
+               <ps:url>http://democast.tld</href> 
+               <ps:operator>John Dow</operator>
+               <ps:name>Democast</name>
+               <ps:rights website="none" ... />
             </ps:feeds>
         </ps:rights>
         
