@@ -1,13 +1,16 @@
-Title: Podcast-Society Sound License
+                                      PODCAST SOCIETY PODCAST SPECIFICATION
+                                      
+                                      
+    /*
+    * Title: Sound License
+    * Author: Michael McCouman Jr.
+    * Version: 0.0.1
+    * Date: Aug 12 2017
+    * Status: draft
+    */                                  
 
-Author: Michael McCouman Jr.
 
-Version: 0.0.1
-
-Status: draft
-
-
-# PS Project Banner #
+# PS Sound License #
 
 DE: Diese Angaben im Feed geben Auskunft über die Sound und Audio Lizenzen wie auch die Herkunft der Werke. 
 
