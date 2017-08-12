@@ -47,7 +47,7 @@
                   length="067549"
                   href="http://democast.tld/podcast/democast001.mp3"/>
             
-            <!-- specify sound lizense -->
+            <!-- specify sound license -->
             <pssl:license version="1.0" xmlns:pssl="http://www.podcast-society.org/psp/sound-license">
                 <pssl:license title="Soundflore 1"
                               type="Intro"                                //Intro, Outro
