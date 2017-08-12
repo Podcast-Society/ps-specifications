@@ -32,7 +32,7 @@ format:
         <title>Democaster</title>
         <atom:link type="text/html" href="http://www.podcast-society.org/de/podcast" />
 
-        <!-- specify projcet banner informations -->
+        <!-- specify project banner informations -->
         <psp:projects version="1.2" xmlns:psc="http://www.podcast-society.org/psp/project-banner">
             <psp:project match="http://ultraschall.fm" title="Ultraschall" version="4.0"/>
             <psp:project match="hhttp://podlove.org" title="Podlove" version="4.0"/>
