@@ -1,35 +1,40 @@
-Title: Podcast-Society Project Banner
+                                      PODCAST SOCIETY SPECIFICATION
+                                      
+                                      
+    /*
+    * Title: Project Banner
+    * Author: Michael McCouman Jr.
+    * Version: 0.0.1
+    * Date: Aug 12 2017
+    * Status: draft
+    */                                  
 
-Author: Michael McCouman Jr.
+    PS Project Banner:
 
-Version: 0.0.1
+    Diese Angaben im Feed geben Auskunft über die verwendeten Sources 
+    eines Projektes und machen die Verwendungen auch im Feed sichtbar. 
 
-Status: draft
+
+    XML Namespace:
+
+    Der XML Namensraum für das URI Format ist:
+    => http://www.podcast-society.org/psp/project-banner
+
+    Der hier genutzte Prefix für den Namensraum ist "pspb:"
 
 
-# PS Project Banner #
+    Vorgesehene Projekte:
 
-DE: Diese Angaben im Feed geben Auskunft über die verwendeten Sources eines Projektes und machen die Verwendungen auch im Feed sichtbar. 
+    - ultraschall
+    - podlove
+    - podigee
+    - studio&link
 
-## XML Namespace ##
 
-Der XML Namensraum für das URI Format ist
+    Example:
 
-=> http://www.podcast-society.org/psp/project-banner
+    Dies ist ein einfacher RSS Podcast Feed mit eingebundenen Projekt Banner Informationen:
 
-Der hier genutzte Prefix für den Namensraum ist "pspb:"
-
-## Vorgesehene Projekte
-
-- ultraschall
-- podlove
-- podigee
-- studio&link
-- ...
-
-## Example 
-
-Dies ist ein einfacher RSS Podcast Feed mit eingebundenen Projekt Banner Informationen:
 
     <?xml version="1.0" encoding="utf-8"?>
     <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
