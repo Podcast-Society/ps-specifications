@@ -2,9 +2,10 @@
                                       
                                       
     /*
-    * Title: License
+    * Title: Media License
     * Author: Michael McCouman Jr.
-    * Version: 0.0.1
+    * Version: 0.1.2
+    * Specifiyer: PSML
     * Area: XML Episode
     * Date: Aug 12 2017
     * Status: draft
