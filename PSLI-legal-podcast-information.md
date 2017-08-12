@@ -64,7 +64,7 @@
         <atom:link type="text/html" href="http://www.podcast-society.org/de/podcast" />
 
         <!-- specify PSLI: legal podcast information -->
-        <psli:rights version="1.0">
+        <psli:rights version="1.0" xmlns:psli="http://www.podcast-society.org/pss/psli">
             <!-- website -->
             <psli:website mode="website"
                           name="Democast"
