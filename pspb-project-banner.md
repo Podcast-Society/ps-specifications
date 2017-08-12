@@ -46,12 +46,12 @@
         <pspb:projects version="1.0" xmlns:pspb="http://www.podcast-society.org/psp/project-banner">
             <pspb:project rel="http://ultraschall.fm" 
                          title="Ultraschall" 
-                         format="svg"
-                         href="http://ultraschall.fm/banner/ultraschall-4.svg" //url is not specifiy
+                         type="image/png"
+                         href="http://ultraschall.fm/banner/ultraschall-4.png" //url is not specifiy
                          version="4.0"/>
             <pspb:project rel="http://podlove.org" 
                          title="Podlove"
-                         format="png"
+                         type="image/jpeg"
                          href="http://podlove.org/banner/" //url is not specifiy
                          version="4.0"/>
         </pspb:projects>
