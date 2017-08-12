@@ -22,7 +22,7 @@
     XML Namespace:
 
     Der XML Namensraum für das URI Format ist:
-    => http://www.podcast-society.org/pss/project-banner
+    => http://www.podcast-society.org/pss/PSLI/specification
 
     Der hier genutzte Prefix für den Namensraum ist "psli:rights"
 
@@ -64,7 +64,7 @@
         <atom:link type="text/html" href="http://www.podcast-society.org/de/podcast" />
 
         <!-- specify PSLI: legal podcast information -->
-        <psli:rights version="1.0" xmlns:psli="http://www.podcast-society.org/pss/psli">
+        <psli:rights version="1.0" xmlns:psli="http://www.podcast-society.org/pss/PSLI/specification">
             <!-- website -->
             <psli:website mode="website"
                           name="Democast"
