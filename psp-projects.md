@@ -33,9 +33,8 @@ Dies ist ein einfacher RSS Podcast Feed mit eingebundenen Projekt Banner Informa
         <pspb:projects version="1.0" xmlns:psc="http://www.podcast-society.org/psp/project-banner">
             <pspb:project rel="http://ultraschall.fm" 
                          title="Ultraschall" 
-                         jpg="http://ultraschall.fm/banner/ultraschall.4.jpg" //url is not specifiy
-                         png="..."
-                         svg="..."
+                         format="svg"
+                         url="http://ultraschall.fm/banner/ultraschall-4.svg" //url is not specifiy
                          version="4.0"/>
             <pspb:project rel="http://podlove.org" 
                          title="Podlove"
