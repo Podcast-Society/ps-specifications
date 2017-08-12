@@ -2,7 +2,7 @@
                                       
                                       
     /*
-    * Title: Sound License
+    * Title: License
     * Author: Michael McCouman Jr.
     * Version: 0.0.1
     * Area: XML Episode
@@ -19,7 +19,7 @@
     XML Namespace:
 
     Der XML Namensraum für das URI Format ist:
-    => http://www.podcast-society.org/psp/sound-license
+    => http://www.podcast-society.org/psp/license
 
     Der hier genutzte Prefix für den Namensraum ist "pssl"
 
@@ -48,28 +48,45 @@
                   href="http://democast.tld/podcast/democast001.mp3"/>
             
             <!-- specify sound license -->
-            <pssl:license version="1.0" xmlns:pssl="http://www.podcast-society.org/psp/sound-license">
-                <pssl:license title="Soundflore 1"
-                              type="intro"                                //intro, outro
-                              genre="08"                                  //optional see ID3v1 Genres
-                              producer="Michael McCouman Jr."             //producer, creator ...
-                              prodUrl="http://website-download.tld"       //website url from sound creator
-                              license="cc0"                               //sound license
-                              licUrl="https://creativecommons.org/licenses/by/3.0/de/" //sound license url
-                              />
-                 <pssl:license title="Soundflore 1"
-                              type="ontro"                                //intro, outro
-                              genre="08"                                  //optional see ID3v1 Genres
-                              producer="Michael McCouman Jr."             //producer, creator ...
-                              prodUrl="http://website-download.tld"       //website url from sound creator
-                              license="cc0"                               //sound license
-                              licUrl="https://creativecommons.org/licenses/by/3.0/de/" //sound license url
-                              />
-            </pssl:license>
+            <ps:license version="1.0" xmlns:pssl="http://www.podcast-society.org/psp/sound-license">
+                <ps:sound title="Soundflore Intro"
+                          mode="intro"                                //intro
+                          genre="08"                                  //ID3v1 Genre (optional)
+                          producer="Michael McCouman Jr."             //producer
+                          producerUrl="http://website-download.tld"   //website
+                          license="cc0"                               //sound license
+                          licenseUrl="https://creativecommons.org/licenses/by/3.0/de/" //sound license url
+                          />
+                 <ps:sound title="Soundflore Ending"
+                           mode="ontro"                                //outro
+                           genre="10"                                  //ID3v1 Genre (optional)
+                           producer="Michael McCouman Jr."             //producer
+                           prodUrl="http://website-download.tld"       //website url
+                           license="cc0"                               //sound license
+                           licenseUrl="https://creativecommons.org/licenses/by/3.0/de/" //sound license url
+                           />
+                 <ps:image title="Spirit Bicture"
+                           mode="banner"                               //banner
+                           type="image/jpg"                            //mime-type
+                           creator="Michael McCouman Jr."              //creator
+                           creatorUrl="http://website-download.tld"    //website url
+                           license="Copyright by Democast"             //image license
+                           licenseUrl="http://democast.tld"            //license url
+                            />
+                 <ps:image title="Episode 001"
+                           mode="poster"                               //poster
+                           type="image/png"                            //mime-type
+                           creator="Michael McCouman Jr."              //producer, creator ...
+                           creatorUrl="http://website-download.tld"    //website url
+                           license="Copyright by Democast - 001"       //image license
+                           licenseUrl="http://democast.tld/001/"       //license url
+                            />
+            </ps:license>
         
         </item>
     </channel>
     </feed>
 
     Links:
+    - https://wiki.selfhtml.org/wiki/MIME-Type/%C3%9Cbersicht
     - https://de.wikipedia.org/wiki/Liste_der_ID3v1-Genres
