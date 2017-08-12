@@ -35,7 +35,7 @@
         <atom:link type="text/html" href="http://www.podcast-society.org/de/podcast" />
 
         <!-- specify sound lizense -->
-        <pssl:license version="1.0" xmlns:pspb="http://www.podcast-society.org/psp/sound-license">
+        <pssl:license version="1.0" xmlns:pssl="http://www.podcast-society.org/psp/sound-license">
             <pssl:license title="Soundflore 1"
                           type="Intro"                                //Intro, Outro
                           genre="08"                                  //optional see ID3v1 Genres
