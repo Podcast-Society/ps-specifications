@@ -21,10 +21,9 @@ Der XML Namensraum für das URI Format ist
 
 Der hier genutzte Prefix für den Namensraum ist "pspb:"
 
+## Example 
 
-This is an simple example of a RSS podcast feed with
-embedded chapter information in Podlove Simple Chapter
-format:
+Dies ist ein einfacher RSS Podcast Feed mit eingebundenen Projekt Banner Informationen:
 
     <?xml version="1.0" encoding="utf-8"?>
     <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
