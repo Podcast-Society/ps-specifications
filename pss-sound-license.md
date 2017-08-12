@@ -14,6 +14,7 @@
     Diese Angaben im Feed geben Auskunft über die Sound und Audio 
     Lizenzen wie auch die Herkunft der Werke. 
 
+
     XML Namespace:
 
     Der XML Namensraum für das URI Format ist:
@@ -40,7 +41,8 @@
                           genre="08"                                  //optional see ID3v1 Genres
                           creator="Michael McCouman Jr."              //producer, creator ...
                           href="http://website-download.tld"          //website url
-                          lic="cc0"                                   //license
+                          license="cc0"                               //license
+                          licUrl="https://creativecommons.org/licenses/by/3.0/de/"
                           />
         </pssl:license>
         
