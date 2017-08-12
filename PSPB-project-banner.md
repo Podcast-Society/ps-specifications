@@ -22,7 +22,7 @@
     Der XML Namensraum für das URI Format ist:
     => http://www.podcast-society.org/pss/PSPB/specification
 
-    Der hier genutzte Prefix für den Namensraum ist "ps:projects"
+    Der hier genutzte Prefix für den Namensraum ist "pspb:"
 
 
     Vorgesehene Projekte:
