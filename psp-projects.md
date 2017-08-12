@@ -21,23 +21,11 @@ This is an simple example of a RSS podcast feed with
 embedded chapter information in Podlove Simple Chapter
 format:
 
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <?xml version="1.0" encoding="utf-8"?>
+    <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Podlove Podcast</title>
-        <atom:link type="text/html"
-                   href="http://podlove.org/"/>
-
-        <psp:projects version="1.0" xmlns:psp="http://www.podcast-society.org">
-
-            <check if="{{@project == 'ultraschall'}}">
-                <psp:project match="http://ultraschall.fm" title="Ultraschall" version="4.0"/>
-            </check>
-            <check if="{{@project == 'podlove'}}">
-                <psp:project match="http://podlove.org" title="Podlove Webplayer" version="4.0"/>
-            </check>
-
-        </psp:projects>
+        <title>Democaster</title>
+        <atom:link type="text/html" href="http://www.podcast-society.org/de/podcast" />
 
         <!-- specify projcet banner informations -->
         <psp:projects version="1.2" xmlns:psc="http://www.podcast-society.org/psp/project-banner">
