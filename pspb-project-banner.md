@@ -42,7 +42,7 @@
         <title>Democaster</title>
         <atom:link type="text/html" href="http://www.podcast-society.org/de/podcast" />
 
-        <!-- specify project banner informations -->
+        <!-- specify projects -->
         <pspb:projects version="1.0" xmlns:pspb="http://www.podcast-society.org/psp/project-banner">
             <pspb:project rel="http://ultraschall.fm" 
                          title="Ultraschall" 
