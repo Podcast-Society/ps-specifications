@@ -1,4 +1,4 @@
 # psp-specifications
 
-* project banner specification
-* sound license specification
+* psp: project banner specification
+* psl: sound and image license specification
