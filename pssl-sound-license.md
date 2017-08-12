@@ -1,4 +1,4 @@
-                                      PODCAST SOCIETY PODCAST SPECIFICATION
+                                      PODCAST SOCIETY SPECIFICATION
                                       
                                       
     /*
