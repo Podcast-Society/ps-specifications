@@ -44,7 +44,7 @@
         <atom:link type="text/html" href="http://www.podcast-society.org/de/podcast" />
 
         <!-- specify projects -->
-        <ps:projects version="1.0" xmlns:pspb="http://www.podcast-society.org/psp/project-banner">
+        <ps:projects version="1.0" xmlns:ps="http://www.podcast-society.org/psp/project-banner">
             <ps:project rel="http://ultraschall.fm" 
                          title="Ultraschall" 
                          type="image/png"
