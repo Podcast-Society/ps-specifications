@@ -37,7 +37,7 @@
         <atom:link type="text/html" href="http://www.podcast-society.org/de/podcast" />
 
         <!-- specify color setting -->
-        <pscs:settings version="1.0" xmlns:pscs="http://www.podcast-society.org/pss/PSPB/specification">
+        <pscs:settings version="1.0" xmlns:pscs="http://www.podcast-society.org/pss/PSCS/specification">
             <pscs:color hex="#f00"/>
             <pscs:light hex="#e66"/>
             <pscs:dark hex="#a00"/>
