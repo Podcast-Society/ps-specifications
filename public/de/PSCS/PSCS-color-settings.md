@@ -41,7 +41,7 @@
             <pscs:color hex="#f00"/>
             <pscs:light hex="#e66"/>
             <pscs:dark hex="#a00"/>
-        </ps:projects>
+        </pscs:settings>
 
         <item>
             <title>Democast 001</title>
